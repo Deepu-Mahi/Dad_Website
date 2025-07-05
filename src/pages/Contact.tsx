@@ -25,12 +25,13 @@ const Contact: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    emailjs.send(
-      'service_li5hw1h',        // 🔁 Replace with your EmailJS Service ID
-      'template_avnow5d',       // 🔁 Replace with your EmailJS Template ID
-      formData,
-      'wz0DTgVZgg4lxgbGA'         // 🔁 Replace with your EmailJS Public Key
-    )
+   emailjs.send(
+  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  formData,
+  import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+)
+
     .then(() => {
       setIsSubmitted(true);
       setTimeout(() => setIsSubmitted(false), 3000);
@@ -58,7 +59,7 @@ const Contact: React.FC = () => {
     'SAP PP',
     'SAP ABAP',
     'SAP BASIS',
-   "Other (please specify in the description box below)"
+    'Others(please Share in down describe your needs box)'
   ];
 
   const teamSizes = [
