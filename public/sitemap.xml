@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://madhusudhantrainings.in/</loc>
+    <loc>https://madhupayroll.com/</loc>
   </url>
-  <!-- Add more pages like /about, /contact, /trainings if they exist -->
+  <url>
+    <loc>https://madhupayroll.com/about</loc>
+  </url>
+  <url>
+    <loc>https://madhupayroll.com/programs</loc>
+  </url>
+  <url>
+    <loc>https://madhupayroll.com/clients</loc>
+  </url>
+  <url>
+    <loc>https://madhupayroll.com/contact</loc>
+  </url>
 </urlset>
